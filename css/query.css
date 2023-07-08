@@ -1,0 +1,7 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .main {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    margin-top: 9rem;
+  }
+}

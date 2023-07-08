@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <header>
+      <p>S P L I</p>
+      <p>T T E R</p>
+    </header>
+    <div class="main">
+      <section class="form">
+        <form action="" method="">
+          <div>
+            <label for="bill-input">Bill</label>
+            <div class="input-field">
+              <input
+                type="number"
+                name="bill-input"
+                id="bill-input"
+                placeholder="0"
+                class="bill"
+                autofocus
+                required
+              />
+              <img src="./images/icon-dollar.svg" alt="dollar" />
+            </div>
+          </div>
+
+          <label for="">Select Tip %</label>
+
+          <div class="buttons">
+            <button class="perBtn">5%</button>
+            <button class="perBtn">10%</button>
+            <button class="perBtn">15%</button>
+            <button class="perBtn">25%</button>
+            <button class="perBtn">50%</button>
+            <input type="number" placeholder="custom" class="custom" />
+          </div>
+
+          <div>
+            <div class="error-msg">
+              <label for="number-of-people">Number of People</label>
+              <label for="number-of-people" class="error error-msgs hide"
+                >Can't be zero</label
+              >
+            </div>
+
+            <div class="input-field">
+              <input
+                type="number"
+                name="number-of-people"
+                id="number-of-people"
+                placeholder="0"
+                class="error-input no-error"
+              />
+              <img src="./images/icon-person.svg" alt="Person-logo" />
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="result">
+        <div class="result-grid">
+          <div>
+            <h1>Tip Amount</h1>
+            <p>/ person</p>
+          </div>
+
+          <div>
+            <h2 class="amtper">$0.00</h2>
+          </div>
+        </div>
+
+        <div class="result-grid">
+          <div>
+            <h1>Total</h1>
+            <p>/ person</p>
+          </div>
+
+          <div>
+            <h2 class="amttotal">$0.00</h2>
+          </div>
+        </div>
+
+        <button class="reset">RESET</button>
+      </section>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Prince Createz</a>.
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
